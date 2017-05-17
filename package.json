@@ -1,0 +1,25 @@
+{
+  "name": "tinyserver",
+  "version": "0.1.0",
+  "description": "Servidor peque!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesmarquez/tinyserver.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Jesus Marquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesmarquez/tinyserver/issues"
+  },
+  "homepage": "https://github.com/jesmarquez/tinyserver#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
