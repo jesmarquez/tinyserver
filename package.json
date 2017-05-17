@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/jesmarquez/tinyserver#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.3",
+    "express-session": "^1.15.2",
+    "pbkdf2-password": "^1.2.1"
   }
 }
