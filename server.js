@@ -87,6 +87,41 @@ app.post('/login', function(req, res){
   });
 });
 
+app.get('/api/listservers', function(req, res){
+
+  let servers = [
+    {
+      "id": "1",
+      "name": "augusta",
+      "ipinterna": "175.16.3.6", 
+      "ipexterna": "181.118.150.145",
+      "dominio": "augusta.nobit.edu.co",
+    },
+    {
+      "id": "2",
+      "name": "api",
+      "ipinterna": "165.18.3.6", 
+      "ipexterna": "171.118.150.145",
+      "dominio": "api.nobit.edu.co",
+    },
+    {
+      "id": "3",
+      "name": "clientes",
+      "ipinterna": "175.16.3.6", 
+      "ipexterna": "181.118.150.145",
+    },
+    {
+      "id": "4",
+      "name": "database",
+      "ipinterna": "165.18.3.6", 
+      "ipexterna": "171.118.150.145",
+      "dominio": "database.nobit.edu.co",
+    }
+  ];
+
+  res.send(servers);
+})
+
 app.listen(5000, function () {
   console.log("Tiny server is running on port 5000!");
 })
